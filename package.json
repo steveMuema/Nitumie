@@ -82,7 +82,6 @@
   },
   "dependencies": {
     "@material-ui/core": "^3.0.1",
-    "@material-ui/icons": "^3.0.1",
-    "react-signup-login-component": "^1.2.0"
+    "@material-ui/icons": "^3.0.1"
   }
 }
