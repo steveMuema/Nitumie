@@ -1,5 +1,4 @@
 export { default as App } from './App';
-export { default as DefaultPage } from './DefaultPage';
 export { default as TestPage } from './TestPage';
 export { default as AppHeader } from './AppHeader';
 export { default as LandingPage } from './LandingPage';
