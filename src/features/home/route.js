@@ -2,7 +2,7 @@
 // Learn more from: http://rekit.js.org/docs/routing.html
 
 import {
-  DefaultPage,
+  LandingPage,
   TestPage,
 } from './';
 
@@ -10,11 +10,12 @@ export default {
   path: '/',
   name: 'Home',
   childRoutes: [
-    { path: 'default-page',
-      name: 'Default page',
-      component: DefaultPage,
+    { path: 'home',
+      name: 'Landing page',
+      component: LandingPage,
       isIndex: true,
     },
     { path: 'test-page', name: 'Test page', component: TestPage },
+    { path: '/home', name: 'Landing page', component: LandingPage },
   ],
 };
