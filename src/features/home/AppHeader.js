@@ -6,6 +6,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import Modal from '@material-ui/core/Modal';
+import Register from './Register';
 // import IconButton from '@material-ui/core/IconButton';
 // import MenuIcon from '@material-ui/icons/Menu';
 
@@ -37,13 +38,12 @@ const styles = theme => ({
   },
   paper: {
     position: 'absolute',
-    width: theme.spacing.unit * 50,
+    width: theme.spacing.unit * 70,
     backgroundColor: theme.palette.background.paper,
     boxShadow: theme.shadows[5],
     padding: theme.spacing.unit * 4,
   },
 });
-
 
 class AppHeader extends Component {
   static propTypes = {
@@ -52,7 +52,6 @@ class AppHeader extends Component {
   state = {
     open: false,
   };
-
   handleOpen = () => {
     this.setState({ open: true });
   };
@@ -71,12 +70,7 @@ class AppHeader extends Component {
           onClose={this.handleClose}
         >
           <div style={getModalStyle()} className={classes.paper}>
-            <Typography variant="title" id="modal-title">
-              Text in a modal
-            </Typography>
-            <Typography variant="subheading" id="simple-modal-description">
-              Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-            </Typography>
+            <Register />
           </div>
         </Modal>
         <div className={classes.root}>
