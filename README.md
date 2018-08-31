@@ -1,5 +1,5 @@
 # README
-This appliication is used to allow users to Top-up and send money to their friends efficiently
+This application is used to allow users to Top-up and send money to their friends efficiently
 
 ## Getting Started
 Here's a step by step guide on getting the client running locally:
