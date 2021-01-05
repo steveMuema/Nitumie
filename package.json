@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "argparse": "^1.0.7",
-    "axios": "^0.17.0",
+    "axios": "^0.21.1",
     "babel-core": "^6.25.0",
     "babel-eslint": "^8.2.1",
     "babel-loader": "^7.0.0",
