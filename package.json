@@ -70,7 +70,7 @@
     "rekit-core": "^2.1.1",
     "rekit-studio": "^2.2.0",
     "request": "^2.83.0",
-    "shelljs": "^0.8.0",
+    "shelljs": "^0.8.5",
     "sinon": "^4.1.5",
     "style-loader": "^0.19.1",
     "url-loader": "^0.6.2",
